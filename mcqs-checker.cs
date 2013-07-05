@@ -26,12 +26,6 @@ namespace WindowsFormsApplication2
             InitializeComponent();
         }
 
-        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
-        {
-
-        }
-
-         
 
         public void resetTimer()
         {
@@ -108,11 +102,7 @@ namespace WindowsFormsApplication2
             //lblScore.Text = Convert.ToString(score);
 
         }
-        public void answerCheck()
-        { 
-           
-        
-        }
+       
 
         private void btnNext_Click(object sender, EventArgs e)
         {
@@ -164,40 +154,13 @@ namespace WindowsFormsApplication2
             
         }
 
-        private void choiceA_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblMin_Click(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             timer1.Stop();
             MessageBox.Show("Test Result:\nYou answered "+score/10+" question(s) correctly.\nYour score is: "+score);
             
         }
-
-        private void choiceD_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void choiceB_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
- 
-
-       
-
-        
        
     }
 }
